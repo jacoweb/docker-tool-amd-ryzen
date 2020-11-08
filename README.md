@@ -13,3 +13,5 @@ $ chmod +x docker-tool.sh
 $ ln -s docker.sh /usr/local/bin/docker-tool
 $ docker-tool
 ```
+
+![alt text](docker-tool.png "docker-tool")
