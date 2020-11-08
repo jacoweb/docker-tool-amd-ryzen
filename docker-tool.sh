@@ -93,26 +93,17 @@ case $opt in
   ;;
 
   start)
-  
-    if ! docker-compose &>/dev/null; then
-        echo "docker-compose is not installed."
-    else
-      echo '-------------------------------------------------'
-      echo '| Starting docker containers                     |'
-      echo '-------------------------------------------------'
-      docker-compose up -d
-    fi
+    echo '-------------------------------------------------'
+    echo '| Starting docker containers                     |'
+    echo '-------------------------------------------------'
+    docker-compose up -d
   ;;
 
   stop)
-    if ! docker-compose &>/dev/null; then
-        echo "docker-compose is not installed."
-    else
-      echo '-------------------------------------------------'
-      echo '| Stoping docker containers                      |'
-      echo '-------------------------------------------------'
-      docker-compose down
-    fi
+    echo '-------------------------------------------------'
+    echo '| Stoping docker containers                      |'
+    echo '-------------------------------------------------'
+    docker-compose down
   ;;
 
   list)
