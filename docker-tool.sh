@@ -93,7 +93,8 @@ case $opt in
   ;;
 
   start)
-    if ! docker-composer &>/dev/null; then
+  
+    if ! docker-compose &>/dev/null; then
         echo "docker-compose is not installed."
     else
       echo '-------------------------------------------------'
@@ -104,7 +105,7 @@ case $opt in
   ;;
 
   stop)
-    if ! docker-composer &>/dev/null; then
+    if ! docker-compose &>/dev/null; then
         echo "docker-compose is not installed."
     else
       echo '-------------------------------------------------'
