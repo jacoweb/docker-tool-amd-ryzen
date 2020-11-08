@@ -1,8 +1,7 @@
 # docker-tool-amd-ryzen
 
-There is no way to install Docker Desktop on Ryzen CPU's. 
-This tool will be neat!
-
+There is no way to install Docker Desktop on Ryzen CPU's.
+So i made this neat little tool to run docker on AMD Ryzen Systems!
 
 ### Installation
 
