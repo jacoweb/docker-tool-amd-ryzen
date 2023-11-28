@@ -53,7 +53,7 @@ case $opt in
       echo '-------------------------------------------------'
       echo '| Installing dependencies                        |'
       echo '-------------------------------------------------'
-      brew install docker docker-machine ; brew cask install virtualbox ; 
+      brew install docker docker-machine ; brew install --cask virtualbox ; 
       curl -L https://github.com/docker/compose/releases/download/1.25.5/docker-compose-`uname -s`-`uname -m` >~/docker-compose ;
       chmod +x ~/docker-compose ; sudo mv ~/docker-compose /usr/local/bin/docker-compose
     fi
